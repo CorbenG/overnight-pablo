@@ -15,6 +15,12 @@ public class textmanager : MonoBehaviour
     private GameObject currentText;
     int total = 1;
 
+    public float posx;
+    public float posy;
+    public float boxdist;
+
+    public GameObject bubbleObject;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,13 +55,15 @@ public class textmanager : MonoBehaviour
             */
             if (nexttext.GetComponent<Text>().text[0] == '0')
             {
-                GameObject newtext = Instantiate(yourText, new Vector3(100, -200, 0), new Quaternion(0, 0, 0, 0));
+                GameObject newtext = Instantiate(yourText, new Vector3(posx, posy, 0), new Quaternion(0, 0, 0, 0));
 
-                newtext.transform.SetParent(canvas.transform);
-                newtext.transform.localPosition = new Vector3(25, -200, 0);
+                
+                //print(_text);
+
+                newtext.transform.SetParent(bubbleObject.transform);
+                newtext.transform.position = new Vector3(posx + 0.25f, posy + (_text.Length / 27) * 0.4f, 0);
                 newtext.transform.localScale = new Vector3(1, 1, 1);
                 _text = _text.Substring(1);
-                print(_text);
                 newtext.GetComponent<UnityEngine.UI.Text>().text = (_text);
                 prevtext = nexttext.GetComponent<Text>().text;
                 newtext.name = "Text " + total;
@@ -63,7 +71,7 @@ public class textmanager : MonoBehaviour
                 {
                     currentText = GameObject.Find("Text " + j);
                     Vector3 position = currentText.transform.position;
-                    position.y += 1;
+                    position.y += boxdist;
                     currentText.transform.position = position;
                 }
                 total++;
@@ -71,10 +79,10 @@ public class textmanager : MonoBehaviour
             }
             if (nexttext.GetComponent<Text>().text[0] == '1')
             {
-                GameObject newtext = Instantiate(theirText, new Vector3(100, -200, 0), new Quaternion(0, 0, 0, 0));
+                GameObject newtext = Instantiate(theirText, new Vector3(posx, posy, 0), new Quaternion(0, 0, 0, 0));
 
-                newtext.transform.SetParent(canvas.transform);
-                newtext.transform.localPosition = new Vector3(-25, -200, 0);
+                newtext.transform.SetParent(bubbleObject.transform);
+                newtext.transform.position = new Vector3(posx -1, posy, 0);
                 newtext.transform.localScale = new Vector3(1, 1, 1);
                 _text = _text.Substring(1);
                 newtext.GetComponent<UnityEngine.UI.Text>().text = (_text);
@@ -84,11 +92,11 @@ public class textmanager : MonoBehaviour
                 {
                     currentText = GameObject.Find("Text " + j);
                     Vector3 position = currentText.transform.position;
-                    position.y += 1;
+                    position.y += boxdist;
                     currentText.transform.position = position;
                 }
                 total++;
-                
+                prevtext = nexttext.GetComponent<Text>().text;
             }
     }
     /*
@@ -132,5 +140,10 @@ public class textmanager : MonoBehaviour
 
         }
         */
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(new Vector3(posx, posy, 0), new Vector3(posx + 0.1f, posy, 0));
     }
 }
