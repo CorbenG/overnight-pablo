@@ -605,7 +605,6 @@ GameObject:
   - component: {fileID: 1065576984}
   - component: {fileID: 1065576983}
   - component: {fileID: 1065576982}
-  - component: {fileID: 1065576981}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -613,31 +612,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1065576981
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065576980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 32
-    y: 196
-    width: 131
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 21
-  blockName: Gabe4Gaming
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
 --- !u!114 &1065576982
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -654,7 +628,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Gabe4Gaming
   description: 
-  targetBlock: {fileID: 1065576981}
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -877,7 +851,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1325921018}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1This is a test
+    stringVal: 0I dont remember it what happened?
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1065576993
@@ -897,7 +871,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1325921018}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Hi guys
+    stringVal: 1Bro!!! last night was insaneeee
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1065576994
@@ -1032,8 +1006,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1065576991}
-  selectedCommands: []
+  - {fileID: 1065576998}
+  selectedCommands:
+  - {fileID: 1065576992}
   variables: []
   description: 
   stepPause: 0
@@ -1168,7 +1143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1065576999}
 --- !u!4 &1115028014
 Transform:
   m_ObjectHideFlags: 1

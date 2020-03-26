@@ -61,7 +61,7 @@ public class textmanager : MonoBehaviour
                 //print(_text);
 
                 newtext.transform.SetParent(bubbleObject.transform);
-                newtext.transform.position = new Vector3(posx + 0.25f, posy + (_text.Length / 27) * 0.4f, 0);
+                newtext.transform.position = new Vector3(posx + 0.25f, posy - ((_text.Length / 27) * 0.06f), 0);
                 newtext.transform.localScale = new Vector3(1, 1, 1);
                 _text = _text.Substring(1);
                 newtext.GetComponent<UnityEngine.UI.Text>().text = (_text);
@@ -71,7 +71,7 @@ public class textmanager : MonoBehaviour
                 {
                     currentText = GameObject.Find("Text " + j);
                     Vector3 position = currentText.transform.position;
-                    position.y += boxdist;
+                    position.y += boxdist + ((_text.Length / 27) * 0.17f);
                     currentText.transform.position = position;
                 }
                 total++;
@@ -82,7 +82,7 @@ public class textmanager : MonoBehaviour
                 GameObject newtext = Instantiate(theirText, new Vector3(posx, posy, 0), new Quaternion(0, 0, 0, 0));
 
                 newtext.transform.SetParent(bubbleObject.transform);
-                newtext.transform.position = new Vector3(posx -1, posy, 0);
+                newtext.transform.position = new Vector3(posx -1, posy - ((_text.Length / 27) * 0.06f), 0);
                 newtext.transform.localScale = new Vector3(1, 1, 1);
                 _text = _text.Substring(1);
                 newtext.GetComponent<UnityEngine.UI.Text>().text = (_text);
@@ -92,7 +92,7 @@ public class textmanager : MonoBehaviour
                 {
                     currentText = GameObject.Find("Text " + j);
                     Vector3 position = currentText.transform.position;
-                    position.y += boxdist;
+                    position.y += boxdist + ((_text.Length / 27) * 0.17f);
                     currentText.transform.position = position;
                 }
                 total++;
