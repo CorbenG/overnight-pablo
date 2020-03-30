@@ -529,7 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Michael
+  m_Text: Barley Gang
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -550,11 +550,9 @@ GameObject:
   - component: {fileID: 515522363}
   - component: {fileID: 515522365}
   - component: {fileID: 515522366}
-  - component: {fileID: 515522369}
   - component: {fileID: 515522370}
   - component: {fileID: 515522371}
   - component: {fileID: 515522373}
-  - component: {fileID: 515522372}
   - component: {fileID: 515522364}
   - component: {fileID: 515522375}
   - component: {fileID: 515522368}
@@ -564,8 +562,8 @@ GameObject:
   - component: {fileID: 515522379}
   - component: {fileID: 515522378}
   - component: {fileID: 515522377}
-  - component: {fileID: 515522381}
-  - component: {fileID: 515522382}
+  - component: {fileID: 515522372}
+  - component: {fileID: 515522369}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -627,18 +625,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271
     y: 49
-    width: 120
+    width: 124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 8
-  blockName: New Block1
+  blockName: Agree to join
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 515522375}
   - {fileID: 515522374}
   - {fileID: 515522368}
+  - {fileID: 515522369}
+  - {fileID: 515522372}
 --- !u!114 &515522365
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -653,8 +653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 72
-    y: 78
+    x: 71
+    y: 79
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -666,11 +666,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 515522373}
   - {fileID: 515522371}
-  - {fileID: 515522372}
-  - {fileID: 515522369}
   - {fileID: 515522370}
   - {fileID: 515522376}
-  - {fileID: 515522381}
 --- !u!114 &515522366
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -716,7 +713,9 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1What the fuck
+    stringVal: 1Good. To prove yourself, there's a hit about to go down at 1942 Alberta
+      St. Big brown warehouse ripe for the picking. Get over there and help the gang
+      steal some grains.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522369
@@ -731,11 +730,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 3
+  itemId: 18
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522370
 MonoBehaviour:
@@ -751,7 +750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  text: I hate you
+  text: Sounds good. What do you need?
   description: 
   targetBlock: {fileID: 515522364}
   hideIfVisited: 0
@@ -792,12 +791,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 7
+  itemId: 17
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1This is a test
+    stringVal: 1Look for a group of guys with lentil necklaces. Ask "where tha grainz
+      at" and they'll know you're good
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522373
@@ -817,7 +817,9 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Hi guys
+    stringVal: 1Word is you jacked that grain van last night. We don't know how the
+      hell you pulled that off. We're offering you a chance to join us. This is something
+      you don't wanna pass up on if you get what I mean.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522374
@@ -855,7 +857,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0I hate you
+    stringVal: 0Sounds good. Where at?
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522376
@@ -872,7 +874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  text: I love you
+  text: Sorry but I'm good, thanks
   description: 
   targetBlock: {fileID: 515522380}
   hideIfVisited: 0
@@ -918,7 +920,8 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Aw I love you too you little ginger asshole
+    stringVal: 1You had the chance of a lifetime. We better not see your mug around
+      here again
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522379
@@ -938,7 +941,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0I love you
+    stringVal: 0Sorry but I'm good, thanks
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522380
@@ -957,68 +960,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246
     y: 161
-    width: 133
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 13
-  blockName: Loving Michael
+  blockName: Don't join
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 515522379}
   - {fileID: 515522377}
   - {fileID: 515522378}
---- !u!114 &515522381
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  text: Gabe4Gaming
-  description: 
-  targetBlock: {fileID: 515522382}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &515522382
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 32
-    y: 196
-    width: 131
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 21
-  blockName: Gabe4Gaming
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
