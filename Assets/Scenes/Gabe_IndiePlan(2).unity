@@ -551,35 +551,28 @@ GameObject:
   - component: {fileID: 515522365}
   - component: {fileID: 515522366}
   - component: {fileID: 515522364}
-  - component: {fileID: 515522375}
-  - component: {fileID: 515522368}
-  - component: {fileID: 515522374}
   - component: {fileID: 515522380}
   - component: {fileID: 515522379}
   - component: {fileID: 515522378}
   - component: {fileID: 515522377}
-  - component: {fileID: 515522369}
   - component: {fileID: 515522384}
   - component: {fileID: 515522383}
   - component: {fileID: 515522382}
-  - component: {fileID: 515522381}
-  - component: {fileID: 515522376}
   - component: {fileID: 515522385}
-  - component: {fileID: 515522373}
-  - component: {fileID: 515522372}
-  - component: {fileID: 515522371}
   - component: {fileID: 515522390}
   - component: {fileID: 515522389}
   - component: {fileID: 515522388}
   - component: {fileID: 515522387}
-  - component: {fileID: 515522386}
-  - component: {fileID: 515522393}
-  - component: {fileID: 515522392}
-  - component: {fileID: 515522391}
   - component: {fileID: 515522370}
   - component: {fileID: 515522394}
   - component: {fileID: 515522395}
   - component: {fileID: 515522396}
+  - component: {fileID: 515522374}
+  - component: {fileID: 515522373}
+  - component: {fileID: 515522372}
+  - component: {fileID: 515522371}
+  - component: {fileID: 515522368}
+  - component: {fileID: 515522369}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -603,7 +596,7 @@ MonoBehaviour:
   scrollPos: {x: 0, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 282
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -612,9 +605,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522380}
+  - {fileID: 515522364}
   selectedCommands:
-  - {fileID: 515522396}
+  - {fileID: 515522368}
   variables: []
   description: 
   stepPause: 0
@@ -642,18 +635,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271
     y: 48
-    width: 120
+    width: 147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 8
-  blockName: Go alone
+  blockName: Small time crime
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 515522375}
   - {fileID: 515522374}
+  - {fileID: 515522373}
+  - {fileID: 515522372}
+  - {fileID: 515522371}
   - {fileID: 515522368}
+  - {fileID: 515522369}
 --- !u!114 &515522365
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -679,7 +675,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
-  - {fileID: 515522369}
   - {fileID: 515522385}
   - {fileID: 515522390}
   - {fileID: 515522384}
@@ -688,15 +683,6 @@ MonoBehaviour:
   - {fileID: 515522388}
   - {fileID: 515522382}
   - {fileID: 515522387}
-  - {fileID: 515522381}
-  - {fileID: 515522386}
-  - {fileID: 515522376}
-  - {fileID: 515522393}
-  - {fileID: 515522373}
-  - {fileID: 515522392}
-  - {fileID: 515522372}
-  - {fileID: 515522391}
-  - {fileID: 515522371}
   - {fileID: 515522370}
   - {fileID: 515522394}
 --- !u!114 &515522366
@@ -739,12 +725,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 49
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1What the fuck
+    stringVal: 0Good thinking, we'll hit em again
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522369
@@ -756,16 +742,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 515522362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 22
+  itemId: 50
   indentLevel: 0
-  duration: 2
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 1, g: 1, b: 1, a: 1}
-  fadeTexture: {fileID: 0}
+  targetTextObject: {fileID: 1771341771}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -780,7 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  text: We go at it alone
+  text: Small time crime all the way
   description: 
   targetBlock: {fileID: 515522364}
   hideIfVisited: 0
@@ -803,12 +790,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 31
+  itemId: 48
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Well then, what are we going to do now?
+    stringVal: 1Smart thinking. I hear there's a new truckload going by tonight to
+      repalce the one we stole.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522372
@@ -823,12 +811,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
+  itemId: 47
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Shit...
+    stringVal: 0We can do it again
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522373
@@ -843,12 +831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 46
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1oh
+    stringVal: 0If we did it drunk
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522374
@@ -860,53 +848,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 515522362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
---- !u!114 &515522375
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 45
   indentLevel: 0
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0I hate you
-  description: 
-  _textObjectObsolete: {fileID: 0}
---- !u!114 &515522376
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 0
-  targetTextObject: {fileID: 1771341771}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 0No no I turned them down
+    stringVal: 0I don't think anyone would notice if we hijack a few grain trucks
+      here or there.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522377
@@ -985,12 +936,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 273
     y: 114
-    width: 148
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 13
-  blockName: Good Boy ending
+  blockName: Go after BB
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -999,26 +950,6 @@ MonoBehaviour:
   - {fileID: 515522378}
   - {fileID: 515522396}
   - {fileID: 515522395}
---- !u!114 &515522381
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 26
-  indentLevel: 0
-  targetTextObject: {fileID: 1771341771}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: "1That\u2019s great dude! We have an in now..."
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1036,7 +967,10 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: "0The Barley Bitches contacted me and asked me to join their gang.\r"
+    stringVal: "1I think getting the Barley Bitches out of our hair would be worth
+      it if we could pull it off, but is also a lot harder. I\u2019d honestly like
+      to not have to deal with them at all, but I feel like they\u2019ll come after
+      us if we keep hijacking trucks. You\u2019re the boss though\u2026\r"
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522383
@@ -1056,7 +990,10 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: "1Yeah? What\u2019s up I\u2019m sure it\u2019s not a big deal."
+    stringVal: "0Well, we have a few options here: We could continue to hijack trucks
+      or mug grain dealers we see on the down low, or we could try and sneak into
+      the Barley Bitches hideout, steal their shit and get them in trouble with the
+      DEA. Which do you think is a better idea\r?"
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522384
@@ -1076,7 +1013,8 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0I think we have a problem
+    stringVal: "1I like the way that sounds. Where do you think we should go after
+      next?\r"
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522385
@@ -1096,27 +1034,10 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0so uhh
+    stringVal: "0We can rough it out together. To hell with the Barley Bigots or whatever
+      they're called, this will be our city now\r!"
   description: 
   _textObjectObsolete: {fileID: 0}
---- !u!114 &515522386
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 37
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &515522387
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1133,7 +1054,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &515522388
 MonoBehaviour:
@@ -1151,7 +1072,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &515522389
 MonoBehaviour:
@@ -1169,7 +1090,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &515522390
 MonoBehaviour:
@@ -1187,61 +1108,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
---- !u!114 &515522391
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
     floatVal: 1
-  durationOLD: 0
---- !u!114 &515522392
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 39
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 5
-  durationOLD: 0
---- !u!114 &515522393
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 38
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 3
   durationOLD: 0
 --- !u!114 &515522394
 MonoBehaviour:
@@ -1257,7 +1124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  text: I think this is it for now
+  text: "Let\u2019s stick it to the Barley Bitches"
   description: 
   targetBlock: {fileID: 515522380}
   hideIfVisited: 0
@@ -1289,7 +1156,7 @@ MonoBehaviour:
   fadeTexture: {fileID: 0}
 --- !u!114 &515522396
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

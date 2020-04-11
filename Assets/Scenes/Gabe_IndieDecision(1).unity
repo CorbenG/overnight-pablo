@@ -555,7 +555,6 @@ GameObject:
   - component: {fileID: 515522379}
   - component: {fileID: 515522378}
   - component: {fileID: 515522377}
-  - component: {fileID: 515522369}
   - component: {fileID: 515522384}
   - component: {fileID: 515522383}
   - component: {fileID: 515522382}
@@ -610,9 +609,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522364}
+  - {fileID: 515522365}
   selectedCommands:
-  - {fileID: 515522368}
+  - {fileID: 515522392}
   variables: []
   description: 
   stepPause: 0
@@ -675,7 +674,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
-  - {fileID: 515522369}
   - {fileID: 515522385}
   - {fileID: 515522390}
   - {fileID: 515522384}
@@ -725,7 +723,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &515522368
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -742,25 +740,6 @@ MonoBehaviour:
     stringVal: Gabe_IndieScene(2)
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &515522369
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 22
-  indentLevel: 0
-  duration: 2
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 1, g: 1, b: 1, a: 1}
-  fadeTexture: {fileID: 0}
 --- !u!114 &515522370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1053,7 +1032,8 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0so uhh
+    stringVal: 0We can rough it out together. To hell with the Barley Bigots or whatever
+      they're called, this will be our city now
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522386
@@ -1144,7 +1124,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 0.5
+    floatVal: 1
   durationOLD: 0
 --- !u!114 &515522391
 MonoBehaviour:
@@ -1180,7 +1160,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &515522393
 MonoBehaviour:
@@ -1246,7 +1226,7 @@ MonoBehaviour:
   fadeTexture: {fileID: 0}
 --- !u!114 &515522396
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
