@@ -297,8 +297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -15}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_AnchoredPosition: {x: 0, y: -42.2}
+  m_SizeDelta: {x: 1000, y: 754.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511197934
 MonoBehaviour:
@@ -333,9 +333,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "What a shame. What a rotten way to die.\n\nThe next say you were found
-    dead in your apartment via a gunshot wound to the head \n\nWithout any witnesses
-    to step forward, your case will remain unsolved.\n\nCongratulations."
+  m_Text: 'What a shame. What a rotten way to die.
+
+
+    With Clyde dead, you''re now a one man band. This is too much pressure for you
+    to handle.
+
+
+    In the next few days you''d move out of your apartment out of fear that you were
+    being hunted. You live a moderately peaceful life, but you can''t help but feel
+    responsible for the death of your friend.
+
+
+    Congratulations.'
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0

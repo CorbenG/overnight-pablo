@@ -333,9 +333,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "What a shame. What a rotten way to die.\n\nThe next say you were found
-    dead in your apartment via a gunshot wound to the head \n\nWithout any witnesses
-    to step forward, your case will remain unsolved.\n\nCongratulations."
+  m_Text: 'HA HA HA. WE''RE THE KINGS OF THE WORLD!
+
+
+    The police managed to arrest the Barley Bitches at the crime scene. It''d be a
+    long time before they were let out of jail.
+
+
+    With no one else to stand in your way. You and your friend Clyde''s rise to power
+    is swift and effective.
+
+
+    Congratulations.'
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0

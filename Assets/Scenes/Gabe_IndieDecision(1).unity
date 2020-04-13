@@ -577,6 +577,8 @@ GameObject:
   - component: {fileID: 515522395}
   - component: {fileID: 515522396}
   - component: {fileID: 515522368}
+  - component: {fileID: 515522374}
+  - component: {fileID: 515522369}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -609,8 +611,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522365}
-  selectedCommands: []
+  - {fileID: 515522364}
+  selectedCommands:
+  - {fileID: 515522368}
   variables: []
   description: 
   stepPause: 0
@@ -636,7 +639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 271
+    x: 273
     y: 48
     width: 120
     height: 40
@@ -662,7 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 74
+    x: 76
     y: 78
     width: 120
     height: 40
@@ -673,6 +676,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
+  - {fileID: 515522374}
   - {fileID: 515522385}
   - {fileID: 515522390}
   - {fileID: 515522384}
@@ -736,7 +740,26 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Gabe_IndieScene(2)
+    stringVal: Gabe_IndiePlan(2)
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &515522369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Ending_Indie_Good_Boy
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &515522370
@@ -824,6 +847,25 @@ MonoBehaviour:
     stringVal: 1oh
   description: 
   _textObjectObsolete: {fileID: 0}
+--- !u!114 &515522374
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 1, g: 1, b: 1, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!114 &515522376
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -934,6 +976,7 @@ MonoBehaviour:
   - {fileID: 515522378}
   - {fileID: 515522396}
   - {fileID: 515522395}
+  - {fileID: 515522369}
 --- !u!114 &515522381
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1218,10 +1261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  duration: 2
+  duration: 1
   targetAlpha: 1
   waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeColor: {r: 1, g: 1, b: 1, a: 1}
   fadeTexture: {fileID: 0}
 --- !u!114 &515522396
 MonoBehaviour:

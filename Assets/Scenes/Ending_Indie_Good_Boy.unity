@@ -333,9 +333,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "What a shame. What a rotten way to die.\n\nThe next say you were found
-    dead in your apartment via a gunshot wound to the head \n\nWithout any witnesses
-    to step forward, your case will remain unsolved.\n\nCongratulations."
+  m_Text: 'Well, it''s been fun.
+
+
+    You guys had a good run but this isn''t worth getting in trouble over.
+
+
+    You both decide to continue your lives normally. It''s a fairly peacful existance.
+
+
+    Congratulations.'
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
