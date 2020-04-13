@@ -577,11 +577,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -40.734993, y: 164.2302}
+  scrollPos: {x: -39.96917, y: 250.3601}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9100001
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -590,7 +590,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 515522364}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 515522372}
   variables: []
   description: 
   stepPause: 0
@@ -616,8 +617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 278.69235
-    y: 75.37361
+    x: 270.445
+    y: 79.49732
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -645,12 +646,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71
     y: 79
-    width: 168.6813
+    width: 165.46391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: Gang War Happens
+  blockName: My friend is dead :(
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
@@ -688,7 +689,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &515522368
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -783,7 +784,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Death_Ending
+    stringVal: Ending_Gang_Dead
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &515522373

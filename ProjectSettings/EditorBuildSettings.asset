@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Master.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -32,6 +32,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Michael_Second_Mission.unity
     guid: cfe9ff1185a35ce49aa64f10cb7d0155
+  - enabled: 1
+    path: Assets/Scenes/Ending_DEA_Admit_Wrong.unity
+    guid: ed2b5f9951b272140b34f620b191891f
+  - enabled: 1
+    path: Assets/Scenes/Ending_DEA_FailedLie.unity
+    guid: 6e08834a55c34b04ba93aa3d8a09826c
+  - enabled: 1
+    path: Assets/Scenes/Ending_DEA_SuccessfulLie.unity
+    guid: 87b40f18abe82094a9bc87bab5ca31d5
+  - enabled: 1
+    path: Assets/Scenes/Ending_Gang_Caught.unity
+    guid: a46d09d4e8b0c354c99c7389fb5ec663
+  - enabled: 1
+    path: Assets/Scenes/Ending_Gang_Dead.unity
+    guid: 6684c08c6fb86034d864591f3fb8ee43
+  - enabled: 1
+    path: Assets/Scenes/Ending_Gang_Lives.unity
+    guid: 5ef36b2cf1686ab45acf1408165dbcfc
+  - enabled: 1
+    path: Assets/Scenes/Michael_Botch_SecondMission.unity
+    guid: 0d31376141bbe2942965dd924d15ec0e
+  - enabled: 1
+    path: Assets/Scenes/Michael_Botch_SecondMission_DeadF.unity
+    guid: d564791b155068f49a3d63e62f54f39d
+  - enabled: 1
+    path: Assets/Scenes/Michael_Friend_Fate.unity
+    guid: 8b1de502b8c026443bc0d3869a50ee9e
+  - enabled: 1
+    path: Assets/Scenes/Michael_Gang_War_DEA_Route.unity
+    guid: eafef7f30f2b7094eb447a1598875ce5
+  - enabled: 1
+    path: Assets/Scenes/Michael_Gang_War_Gang_Route.unity
+    guid: 8184ddbb3866562449fc0343526ca081
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 7f45bae8235c438489b0744318ac6292
   - enabled: 1
     path: Assets/Scenes/Gabe_IndiePlan(2).unity
     guid: cb08c12d04bd7d14d9dff00c74e6f39f
