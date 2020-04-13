@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 515522372}
   - component: {fileID: 515522369}
   - component: {fileID: 515522364}
+  - component: {fileID: 515522378}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -520,7 +521,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 515522368}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 515522372}
   variables: []
   description: 
   stepPause: 0
@@ -586,6 +588,7 @@ MonoBehaviour:
   - {fileID: 515522381}
   - {fileID: 515522376}
   - {fileID: 515522370}
+  - {fileID: 515522378}
   - {fileID: 515522375}
 --- !u!114 &515522366
 MonoBehaviour:
@@ -701,7 +704,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1.5
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522372
 MonoBehaviour:
@@ -719,7 +722,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522373
 MonoBehaviour:
@@ -802,7 +805,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522377
 MonoBehaviour:
@@ -823,6 +826,24 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &515522378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &515522381
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -860,7 +881,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522383
 MonoBehaviour:
@@ -898,7 +919,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1.5
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522385
 MonoBehaviour:

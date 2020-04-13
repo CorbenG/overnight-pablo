@@ -511,8 +511,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 515522364}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -690,7 +689,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522372
 MonoBehaviour:
@@ -728,8 +727,8 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Nice job you piece of shit. The deal didn't go thru cuz SOMEONE wasn't
-      there. Don't bother coming around this hood again
+    stringVal: 1Nice job you piece of shit. The deal didnt go thru cuz SOMEONE wasn't
+      there. Dont bother coming around this hood again
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522374
