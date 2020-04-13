@@ -618,6 +618,12 @@ GameObject:
   - component: {fileID: 515522435}
   - component: {fileID: 515522433}
   - component: {fileID: 515522434}
+  - component: {fileID: 515522444}
+  - component: {fileID: 515522443}
+  - component: {fileID: 515522442}
+  - component: {fileID: 515522441}
+  - component: {fileID: 515522440}
+  - component: {fileID: 515522439}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -638,11 +644,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -138.44585, y: -226.01772}
+  scrollPos: {x: 2.9754353, y: 511.55542}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7299998
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -650,9 +656,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522405}
-  selectedCommands:
-  - {fileID: 515522403}
+  - {fileID: 515522399}
+  selectedCommands: []
   variables:
   - {fileID: 515522368}
   - {fileID: 515522386}
@@ -682,7 +687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286
     y: 73
-    width: 122.60276
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -886,7 +891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.72414
     y: 221.36986
-    width: 128.08221
+    width: 128.26086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1015,7 +1020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.500004
     y: 205
-    width: 129.45209
+    width: 128.26086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1276,7 +1281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 433.54636
     y: 218.65375
-    width: 169.17812
+    width: 165.2174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1476,7 +1481,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 238.51137
     y: 309.3544
-    width: 176.02744
+    width: 173.91306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1612,7 +1617,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.56932
     y: 439.1359
-    width: 148.63016
+    width: 147.82608
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1628,6 +1633,9 @@ MonoBehaviour:
   - {fileID: 515522430}
   - {fileID: 515522426}
   - {fileID: 515522425}
+  - {fileID: 515522444}
+  - {fileID: 515522443}
+  - {fileID: 515522442}
 --- !u!114 &515522400
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1729,8 +1737,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 454.65405
-    y: 500.20667
-    width: 169.17812
+    y: 501.846
+    width: 165.2174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1747,6 +1755,9 @@ MonoBehaviour:
   - {fileID: 515522436}
   - {fileID: 515522421}
   - {fileID: 515522423}
+  - {fileID: 515522441}
+  - {fileID: 515522440}
+  - {fileID: 515522439}
 --- !u!114 &515522406
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1995,7 +2006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 452.49664
     y: 378.2046
-    width: 128.08221
+    width: 126.08696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2512,6 +2523,118 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 1, g: 1, b: 1, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &515522439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Ending_Botch_Mission
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &515522440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &515522441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 4
+  durationOLD: 0
+--- !u!114 &515522442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Ending_Botch_Mission
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &515522443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &515522444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 4
+  durationOLD: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

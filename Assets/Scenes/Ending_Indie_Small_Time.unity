@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Text: 'Well, it''s been fun.
 
 
-    The second truck you and clyde try to rob turn out to be a police set up.
+    The second truck you and Clyde try to rob turns out to be a police set-up.
 
 
     You spend your days in jail, deciding to give up your life of crime afterwards.
@@ -363,7 +363,6 @@ GameObject:
   - component: {fileID: 515522363}
   - component: {fileID: 515522365}
   - component: {fileID: 515522366}
-  - component: {fileID: 515522368}
   - component: {fileID: 515522364}
   - component: {fileID: 515522373}
   - component: {fileID: 515522369}
@@ -454,7 +453,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
-  - {fileID: 515522368}
   - {fileID: 515522369}
   - {fileID: 515522373}
 --- !u!114 &515522366
@@ -485,22 +483,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &515522368
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  key: saveFriend
-  variable: {fileID: 515522364}
 --- !u!114 &515522369
 MonoBehaviour:
   m_ObjectHideFlags: 2

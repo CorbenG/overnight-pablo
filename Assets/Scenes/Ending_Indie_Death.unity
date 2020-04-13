@@ -333,7 +333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "What a shame. What a rotten way to die.\n\nThe next say you were found
+  m_Text: "What a shame. What a rotten way to die.\n\nThe news says you were found
     dead in your apartment via a gunshot wound to the head \n\nWithout any witnesses
     to step forward, your case will remain unsolved.\n\nCongratulations."
 --- !u!222 &511197935
@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 515522364}
   - component: {fileID: 515522373}
   - component: {fileID: 515522369}
+  - component: {fileID: 515522370}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -447,6 +448,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
+  - {fileID: 515522370}
   - {fileID: 515522368}
   - {fileID: 515522369}
   - {fileID: 515522373}
@@ -511,8 +513,22 @@ MonoBehaviour:
   duration: 2
   targetAlpha: 0
   waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeColor: {r: 1, g: 1, b: 1, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &515522370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
 --- !u!114 &515522373
 MonoBehaviour:
   m_ObjectHideFlags: 2

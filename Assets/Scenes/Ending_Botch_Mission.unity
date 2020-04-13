@@ -297,8 +297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -42.2}
-  m_SizeDelta: {x: 1000, y: 754.4}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511197934
 MonoBehaviour:
@@ -333,16 +333,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'What a shame. What a rotten way to die.
-
-
-    With Clyde dead, you''re now a one man band. This is too much pressure for you
-    to handle.
-
-
-    In the next few days you''d move out of your apartment out of fear that you were
-    being hunted. You live a moderately peaceful life, but you can''t help but feel
-    responsible for the death of your friend.
+  m_Text: 'Damn, you fucked up. And no one fucks up with the Barley Bitches and gets
+    away with it. You best start running, boy!
 
 
     Congratulations.'
@@ -368,7 +360,7 @@ GameObject:
   - component: {fileID: 515522366}
   - component: {fileID: 515522364}
   - component: {fileID: 515522369}
-  - component: {fileID: 515522368}
+  - component: {fileID: 515522370}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -456,7 +448,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 515522366}
   commandList:
-  - {fileID: 515522368}
+  - {fileID: 515522370}
   - {fileID: 515522369}
 --- !u!114 &515522366
 MonoBehaviour:
@@ -486,20 +478,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &515522368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 7
-  indentLevel: 0
 --- !u!114 &515522369
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -517,8 +495,22 @@ MonoBehaviour:
   duration: 2
   targetAlpha: 0
   waitUntilFinished: 1
-  fadeColor: {r: 1, g: 1, b: 1, a: 1}
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &515522370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -515,19 +515,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -13.264925, y: 92.64702}
+  scrollPos: {x: -59.421318, y: 178.26309}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 515522365}
+  selectedCommands:
+  - {fileID: 515522370}
   variables:
   - {fileID: 515522372}
   description: 
@@ -585,7 +587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 43.694427
     y: 116.57948
-    width: 161.42853
+    width: 156.84927
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -691,7 +693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  text: Yeah I'm game (Lie and contact the drug investigator)
+  text: Yeah I'm game (Lie and contact the investigator)
   description: 
   targetBlock: {fileID: 515522364}
   hideIfVisited: 0
@@ -895,7 +897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 248.1978
     y: 155.50546
-    width: 232.85707
+    width: 225.3424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
