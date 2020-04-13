@@ -529,9 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bestie <3
-
-'
+  m_Text: Clyde
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -684,11 +682,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -394.67786, y: 842.0108}
+  scrollPos: {x: -730.89215, y: 726.53955}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402
-  zoom: 0.52
+  zoom: 0.63999987
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -696,8 +694,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522405}
-  selectedCommands: []
+  - {fileID: 515522445}
+  selectedCommands:
+  - {fileID: 515522443}
   variables:
   - {fileID: 515522382}
   description: 
@@ -726,7 +725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.85713
     y: 136.00005
-    width: 125
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -759,7 +758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.153847
     y: 98.92308
-    width: 151.92308
+    width: 137.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1023,8 +1022,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1I hear you man. I should've just gone to Sheridan like I was supposed
-      to
+    stringVal: 1I hear you man. I should've just gone to sheridan like i wanted to
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522379
@@ -1063,7 +1061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5
     y: 216
-    width: 142.3077
+    width: 131.25002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1094,7 +1092,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1I heard word of this happening man. What should we do?
+    stringVal: 1I heard word of this happening man. What should we do
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522382
@@ -1148,7 +1146,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 616.579
     y: 51.44364
-    width: 146.15384
+    width: 134.37502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1312,8 +1310,8 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Hm, that worked out a little too perfectly. Thanks man. We're heading
-      in now!!
+    stringVal: 1Hm that worked out a little 2 perfectly. Thx man. We're heading in
+      now!!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522393
@@ -1390,8 +1388,7 @@ MonoBehaviour:
   text:
     stringRef: {fileID: 0}
     stringVal: 1You were never that good at math in school man. Not enough money for
-      everyone to get one. The remainder just got some pistols. We're going in...
-      ah god
+      everyone to get 1. The others just got some pistols. We're going in... ah god
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522397
@@ -1511,7 +1508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 617.1521
     y: 122.319534
-    width: 123.07693
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1587,7 +1584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595.33905
     y: 193.8269
-    width: 171.15385
+    width: 157.81253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1909,7 +1906,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0The war is gonna go down at 46th Avenue
+    stringVal: 0The war is gonna go down at 46th avenue
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522419
@@ -1929,7 +1926,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0The war is gonna go down at 44th Avenue
+    stringVal: 0The war is gonna go down at 44th avenue
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522420
@@ -1948,7 +1945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 327.51218
     y: 216.17526
-    width: 157.69232
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2031,7 +2028,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.60487
     y: 280.53088
-    width: 157.69232
+    width: 143.75003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2064,7 +2061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 417.66092
     y: 138.37509
-    width: 128.84616
+    width: 121.875015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2183,7 +2180,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 809.2351
     y: 222.40091
-    width: 146.15384
+    width: 135.93752
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2257,7 +2254,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Good luck, man!
+    stringVal: 0Good luck man!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522433
@@ -2342,7 +2339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 994.9261
+    x: 996.4886
     y: 202.13762
     width: 120
     height: 40
@@ -2416,7 +2413,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Fuck, I think we made it. We did it man.
+    stringVal: 1Fuck I think we made it. We did it man.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522440
@@ -2782,7 +2779,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1It's no good! The feds were waiting for us here! Fuck!!
+    stringVal: 1Its no good! The feds were waiting for us here! Fuck!!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522457
@@ -2896,7 +2893,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1It's no good! The feds were waiting for us here! Fuck!!
+    stringVal: 1Its no good! The feds were waiting for us here! Fuck!!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522463
@@ -2960,7 +2957,7 @@ MonoBehaviour:
   text:
     stringRef: {fileID: 0}
     stringVal: 1Uh dude!?!? The gang war was happening the street over! We were fucking
-      late!! The guys there are dead!
+      late!! The guys there r dead!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522466
@@ -3100,7 +3097,7 @@ MonoBehaviour:
   text:
     stringRef: {fileID: 0}
     stringVal: 1Uh dude!?!? The gang war was happening a few streets over! We fucking
-      missed it!! The guys there are dead!
+      missed it!! The guys there r dead!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522473
@@ -3176,7 +3173,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 1Sounds good. We'll update you with what's happening
+    stringVal: 1Sounds good. We'll update you with whats happening
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522477

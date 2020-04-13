@@ -529,9 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bestie <3
-
-'
+  m_Text: Clyde
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -660,7 +658,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 515522380}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 515522379}
   variables: []
   description: 
   stepPause: 0
@@ -784,7 +783,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Get to the 50th Ave. exit of the highway.
+    stringVal: 0Get to the 50th Ave. exit of the highway
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522369

@@ -529,7 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Best Friend
+  m_Text: Barley Bitches
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -607,9 +607,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522364}
+  - {fileID: 515522374}
   selectedCommands:
-  - {fileID: 515522365}
+  - {fileID: 515522388}
   variables:
   - {fileID: 515522372}
   description: 
@@ -819,7 +819,7 @@ MonoBehaviour:
   text:
     stringRef: {fileID: 0}
     stringVal: 1Really dude?? That's risky as hell. Well you usually know what you're
-      doing. Thanks man. I'll text you when I get out of Portland. Cheers
+      doing. Thanks man. I'll text you when i get out of portland. Cheers
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522389

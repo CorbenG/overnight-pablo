@@ -494,7 +494,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -676, y: 430}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 180, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511197934
 MonoBehaviour:
@@ -529,7 +529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Barley Gang
+  m_Text: Barley Bitches
 --- !u!222 &511197935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522364}
+  - {fileID: 515522365}
   selectedCommands:
-  - {fileID: 515522372}
+  - {fileID: 515522373}
   variables: []
   description: 
   stepPause: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 276.49454
+    x: 277.59344
     y: 74.27471
     width: 120
     height: 40
