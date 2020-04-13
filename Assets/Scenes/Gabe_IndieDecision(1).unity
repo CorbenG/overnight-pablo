@@ -481,11 +481,9 @@ GameObject:
   - component: {fileID: 515522382}
   - component: {fileID: 515522381}
   - component: {fileID: 515522376}
-  - component: {fileID: 515522385}
   - component: {fileID: 515522373}
   - component: {fileID: 515522372}
   - component: {fileID: 515522371}
-  - component: {fileID: 515522390}
   - component: {fileID: 515522389}
   - component: {fileID: 515522388}
   - component: {fileID: 515522387}
@@ -500,6 +498,7 @@ GameObject:
   - component: {fileID: 515522368}
   - component: {fileID: 515522374}
   - component: {fileID: 515522369}
+  - component: {fileID: 515522375}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -534,7 +533,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 515522365}
   selectedCommands:
-  - {fileID: 515522382}
+  - {fileID: 515522384}
   variables: []
   description: 
   stepPause: 0
@@ -598,8 +597,7 @@ MonoBehaviour:
   eventHandler: {fileID: 515522366}
   commandList:
   - {fileID: 515522374}
-  - {fileID: 515522385}
-  - {fileID: 515522390}
+  - {fileID: 515522375}
   - {fileID: 515522384}
   - {fileID: 515522389}
   - {fileID: 515522383}
@@ -787,6 +785,24 @@ MonoBehaviour:
   waitUntilFinished: 1
   fadeColor: {r: 1, g: 1, b: 1, a: 1}
   fadeTexture: {fileID: 0}
+--- !u!114 &515522375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515522362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &515522376
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -978,27 +994,6 @@ MonoBehaviour:
     stringVal: 0I think we have a problem
   description: 
   _textObjectObsolete: {fileID: 0}
---- !u!114 &515522385
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 28
-  indentLevel: 0
-  targetTextObject: {fileID: 1771341771}
-  text:
-    stringRef: {fileID: 0}
-    stringVal: 0We can rough it out together. To hell with the Barley Bigots or whatever
-      they're called, this will be our city now
-  description: 
-  _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522386
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1070,24 +1065,6 @@ MonoBehaviour:
   _duration:
     floatRef: {fileID: 0}
     floatVal: 2
-  durationOLD: 0
---- !u!114 &515522390
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515522362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 33
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
   durationOLD: 0
 --- !u!114 &515522391
 MonoBehaviour:
