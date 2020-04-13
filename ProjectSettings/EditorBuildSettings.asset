@@ -56,9 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Michael_Botch_SecondMission.unity
     guid: 0d31376141bbe2942965dd924d15ec0e
-  - enabled: 1
-    path: Assets/Scenes/Michael_Botch_SecondMission_DeadF.unity
-    guid: d564791b155068f49a3d63e62f54f39d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Michael_Friend_Fate.unity
     guid: 8b1de502b8c026443bc0d3869a50ee9e

@@ -514,11 +514,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -125.64681, y: 342.5431}
+  scrollPos: {x: 62.412727, y: 104.768265}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -526,8 +526,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522365}
-  selectedCommands: []
+  - {fileID: 515522380}
+  selectedCommands:
+  - {fileID: 515522379}
   variables: []
   description: 
   stepPause: 0
@@ -555,7 +556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 273.51883
     y: 45.052635
-    width: 120
+    width: 120.49176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -711,7 +712,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522372
 MonoBehaviour:
@@ -772,7 +773,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522375
 MonoBehaviour:
@@ -835,7 +836,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522378
 MonoBehaviour:
@@ -875,7 +876,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Sorry but I'm good, thanks
+    stringVal: 0Sorry but im good thanks
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522380
@@ -893,7 +894,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 252
-    y: 164
+    y: 162.36066
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

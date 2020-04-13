@@ -638,11 +638,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -205.89146, y: 404.76944}
+  scrollPos: {x: -138.44585, y: -226.01772}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.66999984
+  zoom: 0.7299998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -650,8 +650,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 515522432}
-  selectedCommands: []
+  - {fileID: 515522405}
+  selectedCommands:
+  - {fileID: 515522403}
   variables:
   - {fileID: 515522368}
   - {fileID: 515522386}
@@ -681,7 +682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286
     y: 73
-    width: 120
+    width: 122.60276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -827,7 +828,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522372
 MonoBehaviour:
@@ -866,7 +867,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Dude I've got an in with the barley bitches!
+    stringVal: 0Dude ive got an in with the barley bitches!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522374
@@ -885,7 +886,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 251.72414
     y: 221.36986
-    width: 123.134346
+    width: 128.08221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -914,7 +915,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1771341771}
   text:
     stringRef: {fileID: 0}
-    stringVal: 0Okay, go to 1942 Alberta. St.
+    stringVal: 0Okay go to 1942 Alberta. St.
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &515522376
@@ -958,7 +959,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522378
 MonoBehaviour:
@@ -976,7 +977,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522379
 MonoBehaviour:
@@ -1014,7 +1015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.500004
     y: 205
-    width: 124.626884
+    width: 129.45209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1216,7 +1217,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522386
 MonoBehaviour:
@@ -1275,7 +1276,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 433.54636
     y: 218.65375
-    width: 161.94032
+    width: 169.17812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1436,7 +1437,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522394
 MonoBehaviour:
@@ -1473,9 +1474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 239.88123
+    x: 238.51137
     y: 309.3544
-    width: 167.91048
+    width: 176.02744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1611,7 +1612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.56932
     y: 439.1359
-    width: 142.53734
+    width: 148.63016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1691,7 +1692,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522404
 MonoBehaviour:
@@ -1729,7 +1730,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 454.65405
     y: 500.20667
-    width: 158.95526
+    width: 169.17812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1994,7 +1995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 452.49664
     y: 378.2046
-    width: 123.134346
+    width: 128.08221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2050,7 +2051,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522416
 MonoBehaviour:
@@ -2109,7 +2110,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522419
 MonoBehaviour:
@@ -2127,7 +2128,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &515522420
 MonoBehaviour:
