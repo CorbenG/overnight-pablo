@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Master.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Michael_JoinGang.unity
-    guid: 5ce1b203031a43a4486e80f0d2d4f808
+    path: Assets/Scenes/Title Screen.unity
+    guid: 7f45bae8235c438489b0744318ac6292
   - enabled: 1
     path: Assets/Scenes/Corben.unity
     guid: 3f957875b5326c148bd8091753687b01
+  - enabled: 1
+    path: Assets/Scenes/Michael_JoinGang.unity
+    guid: 5ce1b203031a43a4486e80f0d2d4f808
   - enabled: 1
     path: Assets/Scenes/Gabe_IndieDecision(1).unity
     guid: 076be42fc93c53d4c95549168e783ebf
@@ -65,9 +68,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Michael_Gang_War_Gang_Route.unity
     guid: 8184ddbb3866562449fc0343526ca081
-  - enabled: 1
-    path: Assets/Scenes/Title Screen.unity
-    guid: 7f45bae8235c438489b0744318ac6292
   - enabled: 1
     path: Assets/Scenes/Gabe_IndiePlan(2).unity
     guid: cb08c12d04bd7d14d9dff00c74e6f39f
